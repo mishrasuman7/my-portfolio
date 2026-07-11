@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Suman Mishra — Full-Stack Developer & AI Engineer",
     description:
       "Full-stack developer building AI-powered products end-to-end — from browser-automation extensions and computer-vision pipelines to production backend systems on AWS.",
-    // images: [{ url: "/og-image.png", width: 1200, height: 630 }], // TODO: add OG image
+    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
