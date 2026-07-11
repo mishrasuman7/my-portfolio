@@ -15,7 +15,7 @@ export const siteConfig = {
     github: "https://github.com/mishrasuman7",
     linkedin: "https://www.linkedin.com/in/suman-mishra-887446390/",
   },
-  resumeUrl: "/resume.pdf", // TODO: add resume PDF to /public
+  resumeUrl: "https://drive.google.com/file/d/11DjBtcfOP-LHOlYZ3thcoW-4gLLVBmYr/view?usp=sharing",
 } as const;
 
 // ─── Projects ───────────────────────────────────────────────────────
