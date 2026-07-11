@@ -5,6 +5,7 @@ import Projects from "@/components/sections/Projects";
 import Skills from "@/components/sections/Skills";
 import Credentials from "@/components/sections/Credentials";
 import About from "@/components/sections/About";
+import Contact from "@/components/sections/Contact";
 
 export default function Home() {
   return (
@@ -16,10 +17,7 @@ export default function Home() {
         <Skills />
         <Credentials />
         <About />
-        {/* Placeholder for future sections */}
-        <div className="section-container py-32 text-center opacity-50">
-          <p>Contact section coming soon...</p>
-        </div>
+        <Contact />
       </main>
       <Footer />
     </>
