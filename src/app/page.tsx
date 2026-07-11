@@ -3,6 +3,8 @@ import Footer from "@/components/ui/Footer";
 import Hero from "@/components/sections/Hero";
 import Projects from "@/components/sections/Projects";
 import Skills from "@/components/sections/Skills";
+import Credentials from "@/components/sections/Credentials";
+import About from "@/components/sections/About";
 
 export default function Home() {
   return (
@@ -12,9 +14,11 @@ export default function Home() {
         <Hero />
         <Projects />
         <Skills />
+        <Credentials />
+        <About />
         {/* Placeholder for future sections */}
         <div className="section-container py-32 text-center opacity-50">
-          <p>More sections coming soon...</p>
+          <p>Contact section coming soon...</p>
         </div>
       </main>
       <Footer />
